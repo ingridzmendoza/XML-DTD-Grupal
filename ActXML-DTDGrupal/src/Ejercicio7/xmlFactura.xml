@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE INVOICE [
+        <!ELEMENT INVOICE (BusinessContactInfo|InvoiceNumber|DescriptionOfGoodsAndServices|Billing)*>
+        <!ELEMENT BusinessContactInfo (BusinessName|StreetAdress|CityStateZip|Telephone|Email|Website)*>
+        <!ELEMENT BusinessName (#PCDATA)>
+        <!ELEMENT StreetAdress (#PCDATA)>
+        <!ELEMENT CityStateZip (#PCDATA)>
+        <!ELEMENT Telephone (#PCDATA)>
+        <!ELEMENT Email (#PCDATA)>
+        <!ELEMENT Website (#PCDATA)>
+        <!ELEMENT InvoiceNumber (BillTo|ShipTo|InvoiceDetails|Date)*>
+        <!ELEMENT BillTo (#PCDATA)>
+        <!ELEMENT ShipTo (#PCDATA)>
+        <!ELEMENT InvoiceDetails (#PCDATA)>
+        <!ELEMENT Date (#PCDATA)>
+        <!ELEMENT DescriptionOfGoodsAndServices (ProductOrService|Description|QuantityOrHours|Rate|Amount)*>
+        <!ELEMENT ProductOrService (#PCDATA)>
+        <!ELEMENT Description (#PCDATA)>
+        <!ELEMENT QuantityOrHours (#PCDATA)>
+        <!ELEMENT Rate (#PCDATA)>
+        <!ELEMENT Amount (#PCDATA)>
+        <!ELEMENT Billing (Subtotal|SalesTax|ShippingFee|Total|Comments)*>
+        <!ELEMENT Subtotal (#PCDATA)>
+        <!ELEMENT SalesTax (#PCDATA)>
+        <!ELEMENT ShippingFee (#PCDATA)>
+        <!ELEMENT Total (#PCDATA)>
+        <!ELEMENT Comments (#PCDATA)>
+        ]>
+<INVOICE>
+    <BusinessContactInfo>
+        <BusinessName>Lorem Ipsum</BusinessName>
+        <StreetAdress>Lorem Ipsum</StreetAdress>
+        <CityStateZip>Lorem Ipsum</CityStateZip>
+        <Telephone>526620000000</Telephone>
+        <Email>LoremIpsum@gmail.com</Email>
+        <Website>LoremIpsum.com</Website>
+    </BusinessContactInfo>
+    <InvoiceNumber>
+        <BillTo>Lorem Ipsum</BillTo>
+        <ShipTo>Lorem Ipsum</ShipTo>
+        <InvoiceDetails>Lorem Ipsum</InvoiceDetails>
+        <Date>01/01/2023</Date>
+    </InvoiceNumber>
+    <DescriptionOfGoodsAndServices>
+        <ProductOrService>Lorem Ipsum</ProductOrService>
+        <Description>Lorem Ipsum</Description>
+        <QuantityOrHours>Lorem Ipsum</QuantityOrHours>
+        <Rate>Lorem Ipsum</Rate>
+        <Amount>Lorem Ipsum</Amount>
+    </DescriptionOfGoodsAndServices>
+    <Billing>
+        <Subtotal>Lorem Ipsum</Subtotal>
+        <SalesTax>Lorem Ipsum</SalesTax>
+        <ShippingFee>Lorem Ipsum</ShippingFee>
+        <Total>Lorem Ipsum</Total>
+        <Comments>Lorem Ipsum</Comments>
+    </Billing>
+</INVOICE>

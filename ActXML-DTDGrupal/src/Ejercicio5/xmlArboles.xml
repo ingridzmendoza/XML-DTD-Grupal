@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE XMLArboles [
+        <!ELEMENT XMLArboles (Arbol)*>
+        <!ELEMENT Arbol (Especie|NombreComún|Vegetacion|Altura|FormaYEstructura|ColorEnPrimavera|ResistenciaAHeladas|ColorEnOtoño)*>
+        <!ELEMENT Especie (#PCDATA)>
+        <!ELEMENT NombreComún (#PCDATA)>
+        <!ELEMENT Vegetacion (#PCDATA)>
+        <!ELEMENT Altura (#PCDATA)>
+        <!ELEMENT FormaYEstructura (#PCDATA)>
+        <!ELEMENT ColorEnPrimavera (#PCDATA)>
+        <!ELEMENT ResistenciaAHeladas (#PCDATA)>
+        <!ELEMENT ColorEnOtoño (#PCDATA)>
+        ]>
+<XMLArboles>
+    <Arbol>
+        <Especie>Acer monspessulanum</Especie>
+        <NombreComún>Arce de Montpellier, Arce menor</NombreComún>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>Raúl Zúñiga (11'), QRO</Altura>
+        <FormaYEstructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</FormaYEstructura>
+        <ColorEnPrimavera>Haz verde brillante, envés verde blanquecino</ColorEnPrimavera>
+        <ResistenciaAHeladas>Heladas fuertes (hasta -15ºC)</ResistenciaAHeladas>
+    </Arbol>
+    <Arbol>
+        <Especie>Olea europaea</Especie>
+        <NombreComún>Olivo</NombreComún>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>De 8 a 15 metros</Altura>
+        <FormaYEstructura>Copa irregular. Tronco principal irregular con bifurcaciones.</FormaYEstructura>
+    </Arbol>
+    <Arbol>
+        <Especie>Ramaje tortuoso</Especie>
+        <ColorEnPrimavera>Haz verde oscuro, envés verde plateado</ColorEnPrimavera>
+        <ResistenciaAHeladas>Heladas medias (hasta -10ºC)</ResistenciaAHeladas>
+    </Arbol>
+    <Arbol>
+        <Especie>Platanus orientalis</Especie>
+        <NombreComún>Platano</NombreComún>
+        <Vegetacion>Caducifolio</Vegetacion>
+        <Altura>De 20 a 50 metros</Altura>
+        <FormaYEstructura>Copa ovoidal. Tronco principal recto. Ramaje expandido</FormaYEstructura>
+        <ColorEnPrimavera>Haz verde medio, enves verde claro</ColorEnPrimavera>
+        <ColorEnOtoño>Ocre</ColorEnOtoño>
+        <ResistenciaAHeladas>Heladas fuertes (hasta -20ºC)</ResistenciaAHeladas>
+    </Arbol>
+    <Arbol>
+        <Especie>Quercus Ilex</Especie>
+        <NombreComún>Encina</NombreComún>
+        <Vegetacion>Perenne</Vegetacion>
+        <Altura>En torno a 25 metros</Altura>
+        <FormaYEstructura>Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso</FormaYEstructura>
+        <ColorEnPrimavera>Plateado en hojas jóvenes. En hojasantiguas, haz verde oscuro, envés plateado</ColorEnPrimavera>
+        <ResistenciaAHeladas>Heladas fuertes (hasta -15ºC)</ResistenciaAHeladas>
+    </Arbol>
+</XMLArboles>
