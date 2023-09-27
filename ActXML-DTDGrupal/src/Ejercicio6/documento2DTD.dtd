@@ -1,0 +1,5 @@
+<!ELEMENT libros (libroID|titulo|autorNombre|descripcion)*>
+<!ELEMENT libroID (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autorNombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

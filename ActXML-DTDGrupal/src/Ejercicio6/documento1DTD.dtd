@@ -1,0 +1,6 @@
+<!ELEMENT documento (p*, imagen?)>
+        <!ELEMENT p (#PCDATA | destacar)*>
+        <!ELEMENT destacar (#PCDATA)>
+        <!ATTLIST destacar importancia CDATA #IMPLIED>
+        <!ELEMENT imagen EMPTY>
+        <!ATTLIST imagen fichero CDATA #REQUIRED>

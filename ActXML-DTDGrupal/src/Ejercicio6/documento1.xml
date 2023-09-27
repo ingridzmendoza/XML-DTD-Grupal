@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE documento SYSTEM "documento1DTD.dtd">
+<documento>
+    <p>Mi Primer <destacar importancia="1">documento XML</destacar></p>
+    <p>Comienza con la etiqueta &lt;documento&gt;</p>
+    <p>A continuación colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif" />
+</documento>
+
+<!--
+XML ORIGINAL
+<?xml version="1.0"?>
+<documento>
+<p>Mi Primer <destacar
+importancia=1>documento
+XML</destacar></p]
+<p>Comienza con la etiqueta
+<documento&gt;</p>
+<p>A continuacion colocamos un
+elemento sin contenido</p>
+<imagen fichero="imagen.gif">
+</documento>
+
+Errores Identificados:
+1. El atributo importancia no tenía las comillas necesarias.
+2. Los atributos  &lt y &gt se han añadido de apoyo.
+2. La etiqueta <destacar> nunca se cerraba apropiadamente.
+3. El elemento <imagen> no estaba bien definido.
+-->

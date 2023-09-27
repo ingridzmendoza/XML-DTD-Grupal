@@ -1,0 +1,5 @@
+<!ELEMENT entrega (destinatario|articulo|direccionEntrega|fechaEntrega)*>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT articulo (#PCDATA)>
+<!ELEMENT direccionEntrega (#PCDATA)>
+<!ELEMENT fechaEntrega (#PCDATA)>

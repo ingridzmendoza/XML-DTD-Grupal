@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE libros SYSTEM "documento2DTD.dtd">
+<libros>
+    <libroID> quijote </libroID>
+    <titulo> El Quijote </titulo>
+    <autorNombre> cervantes </autorNombre>
+    <descripcion>Es el mejor libro de cervantes. </descripcion>
+</libros>
+
+<!--
+ XML ORIGINAL
+<?xml version="1.0"?>
+<libros>
+<libro id="quijote">
+<titulo>El Quijote</titulo>
+<autor nombre=cervantes
+nombre=cervantes>
+<descripcion>Es el m<ejor libro de
+cervantes.</descripcion>
+</libro]
+</Libros>
+
+Errores Identificados:
+1. La etiquea <libros> no se cierra correctamente por la mayuscula en </Libros>
+2. Libro id no está bien definido y nunca se cierra la etiqueta.
+3. El nombre del autor no está bien definido, y la equiqueta no se llama apropiadamente. Tampoco se cierra.
+4. El simbolo < en m<ejor puede ser omitido.
+5. </libro] no es necesario, y se podria reutilizar para cerrar el LibroID.
+ -->
