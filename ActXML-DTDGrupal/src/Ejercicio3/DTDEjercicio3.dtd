@@ -1,0 +1,10 @@
+<!DOCTYPE Restaurante [
+        <!ELEMENT Restaurante (Menu)*>
+        <!ELEMENT Menu (CartaDesayuno)*>
+        <!ELEMENT CartaDesayuno (Comida)*>
+        <!ELEMENT Comida (Nombre|Precio|Descripcion|Calorias)*>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT Precio (#PCDATA)>
+        <!ELEMENT Descripcion (#PCDATA)>
+        <!ELEMENT Calorias (#PCDATA)>
+        ]>

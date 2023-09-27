@@ -1,0 +1,10 @@
+<!DOCTYPE CdsEnOferta [
+        <!ELEMENT CdsEnOferta (CD)*>
+        <!ELEMENT CD (Titulo|Artista|Pais|CompaniaDiscografica|Precio|AnioPublicacion)*>
+        <!ELEMENT Titulo (#PCDATA)>
+        <!ELEMENT Artista (#PCDATA)>
+        <!ELEMENT Pais (#PCDATA)>
+        <!ELEMENT CompaniaDiscografica (#PCDATA)>
+        <!ELEMENT Precio (#PCDATA)>
+        <!ELEMENT AnioPublicacion (#PCDATA)>
+        ]>
